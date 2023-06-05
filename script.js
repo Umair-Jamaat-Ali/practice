@@ -144,4 +144,32 @@ var string = "Hi im umair jamaat ali";
 
 console.log(string.slice(4, -2));
 
-//// 
+//// split() .. is mein hum string mein words ko alag alag istimal krny k liay istimal krty hain 
+console.log(string.split(" ", 4));   /// " ",, hum space k liay istimal krty hain or jb k agly ko hum is liay istimal krty hain k array mein kitny index chahiay..
+/// yh string ko array mein convert krny k liayt b istimal huta hain. ("-") string ko ak hi array mein convert krti hain.
+console.log(string.split("-"));
+
+console.log(string.split(""));//// ("") is mein string k her element ko array mein alag alag convert kr deaty hain
+console.log(string.split(" ")); /// (" ") is mein string k her word ko alag alag array mein convert kr deaty hain.
+
+
+///// toLocaleLowerCase()... is ko hum sary text ko lower case mein convert krny k liay istimal krty hain
+
+console.log(string.toLocaleLowerCase());
+console.log(string.toLowerCase());
+
+
+///// toLocalepperCase()... is ko hum sary text ko upper case mein convert krny k liay istimal krty hain
+
+console.log(string.toLocaleUpperCase());
+console.log(string.toUpperCase());
+
+//// toString() .... is method mein yh humain number ko string mein convert krta hain..
+ var number1 = 6574;
+console.log( typeof number1);
+var conString = number1.toString() ;
+console.log(typeof conString);
+
+//// valueOf() ... is method mein 
+
+console.log(string.valueOf());
